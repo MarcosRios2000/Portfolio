@@ -8,13 +8,13 @@ import {
   Button,
   Card,
   CardBody,
-  Image,
   Heading,
-  Badge,
+  // Image,
   // ButtonGroup,
   // SimpleGrid,
   // Link,
   // Center,
+  Badge,
 } from "@chakra-ui/react";
 import { Fade } from "react-reveal";
 import ProjectsArray from "./ProjectsArray";
@@ -47,7 +47,7 @@ export default function Projects({ color }) {
               <Text color={`${color}.400`} fontWeight={800}>
                 03
               </Text>
-              <Text fontWeight={800}>Proyectos</Text>
+              <Text fontWeight={800}>Projects</Text>
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
@@ -61,7 +61,7 @@ export default function Projects({ color }) {
                   }}
                   overflow="hidden"
                 >
-                  <Image objectFit="cover" src={project.image} />
+                  {/* <Image objectFit="cover" src={project.image} /> */}
 
                   <Stack>
                     <CardBody align="left">
@@ -162,7 +162,7 @@ export default function Projects({ color }) {
                   </Card>
                 </Fade>
               ))}
-          </SimpleGrid>*/}
+          </SimpleGrid> */}
         </Stack> 
       </Container>
     </>

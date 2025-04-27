@@ -22,23 +22,24 @@ const TbIcons = require("react-icons/tb");
 export default function Nav({ color }) {
   const profile = ProfileArray();
   const colors = {
-  "cyan": "#00B5D8", 
-  "blue": "#3182CE", 
-  "gray": "#718096", 
-  "orange": "#DD6B20", 
-  "green": "#38A169", 
-  "purple": "#805AD5", 
-  "pink": "#D53F8C", 
-  "teal": "#319795", 
-  "red": "#E53E3E", 
-  "yellow": "#D69E2E"};
+    cyan: "#00B5D8",
+    blue: "#3182CE",
+    gray: "#718096",
+    orange: "#DD6B20",
+    green: "#38A169",
+    purple: "#805AD5",
+    pink: "#D53F8C",
+    teal: "#319795",
+    red: "#E53E3E",
+    yellow: "#D69E2E",
+  };
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
   const scrollToHero = () => {
-  const heroSection = document.querySelector("#hero");
+    const heroSection = document.querySelector("#hero");
     heroSection.scrollIntoView({ behavior: "smooth" });
   };
   const scrollToAbout = () => {
@@ -49,10 +50,10 @@ export default function Nav({ color }) {
     const experienceSection = document.querySelector("#experience");
     experienceSection.scrollIntoView({ behavior: "smooth" });
   };
-  // const scrollToProjects = () => {
-  //   const projectsSection = document.querySelector("#projects");
-  //   projectsSection.scrollIntoView({ behavior: "smooth" });
-  // };
+  const scrollToProjects = () => {
+    const projectsSection = document.querySelector("#projects");
+    projectsSection.scrollIntoView({ behavior: "smooth" });
+  };
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
@@ -99,28 +100,24 @@ export default function Nav({ color }) {
             {isLargerThanMD ? (
               <>
                 <Button variant="ghost" onClick={scrollToAbout}>
-                  Sobre mí
+                  About
                 </Button>
                 <Button variant="ghost" onClick={scrollToExperience}>
-                  Experiencia
+                  Experience
                 </Button>
-                {/* <Button variant="ghost" onClick={scrollToProjects}>
-                  Projectos
-                </Button> */}
+                <Button variant="ghost" onClick={scrollToProjects}>
+                  Projects
+                </Button>
                 <Button variant="ghost" onClick={scrollToContact}>
-                  Contacto
+                  Contact
                 </Button>
               </>
-            ) : (
-              <></>
-            )}
+            ) : null}
             <Button onClick={toggleColorMode}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
 
-            {isLargerThanMD ? (
-              <></>
-            ) : (
+            {!isLargerThanMD && (
               <>
                 <Button
                   as={IconButton}
@@ -132,16 +129,16 @@ export default function Nav({ color }) {
                   <DrawerContent>
                     <DrawerBody>
                       <Button variant="ghost" onClick={scrollToAbout}>
-                        Sobre mí
+                        About
                       </Button>
                       <Button variant="ghost" onClick={scrollToExperience}>
-                        Experiencia
+                        Experience
                       </Button>
-                      {/* <Button variant="ghost" onClick={scrollToProjects}>
-                        Projectos
-                      </Button> */}
+                      <Button variant="ghost" onClick={scrollToProjects}>
+                        Projects
+                      </Button>
                       <Button variant="ghost" onClick={scrollToContact}>
-                        Contacto
+                        Contact
                       </Button>
                     </DrawerBody>
                   </DrawerContent>

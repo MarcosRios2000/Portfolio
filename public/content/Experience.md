@@ -1,62 +1,66 @@
 ## Voltvisual
-- *Front-end Developer* | Dic'19 - Nov'20
+- *Front-end Developer* | Dec'19 - Nov'20
 - ![logo512](../assets/Voltvisual.jpg)
-- Tags: Trabajo
+- Tags: Work
 - Badges:
   - Javascript [yellow]
   - React [cyan]
 - List Items:
-  - React y Redux como los principales librerias. La página se diseñó utilizando una combinación de CSS y Bootstrap, lo que nos permitió crear un diseño limpio y profesional.
-  - Para facilitar el almacenamiento de imágenes, aproveché los AWS S3 Buckets, que proporcionaron una solución confiable y escalable.
+  - Built the website using React and Redux as main libraries. Combined CSS and Bootstrap to achieve a clean and professional design.
+  - Integrated AWS S3 Buckets for scalable and reliable image storage.
 
 ## SoyHenry
-- *Teach Assistant* | Ago'21 - Sep'21
+- *Teaching Assistant* | Aug'21 - Sep'21
 - ![logo512](../assets/SoyHenry.png)
-- Tags: Formacion
+- Tags: Education
 - Badges:
   - Javascript [yellow]
   - HTML [orange]
-  - Finalizado [green]
+  - Completed [green]
 - List Items:
-  - Como asistente en Soy Henry, guíe a los estudiantes en etapa introductoria, fortaleciendo habilidades y disfrutando su progreso.
-  - Fomenté colaboración y claridad en un ambiente de enseñanza interactivo y dinámico, contribuyendo a la educación de los participantes del bootcamp.
+  - As a Teaching Assistant at SoyHenry, I guided students during their introductory phase, strengthening their technical skills and enjoying their progress.
+  - Fostered collaboration and clear communication in a dynamic, interactive learning environment.
 
 ## TECHO
 - *Front-end Developer* | Mar'23 - Apr'23
 - ![logo512](../assets/Techo.png)
-- Tags: Formacion
+- Tags: Education
 - Badges:
   - Typescript [blue]
   - React [cyan]
-  - Finalizado [green]
+  - Completed [green]
 - List Items:
-  - Fui seleccionado, junto con mi equipo, para participar en una experiencia laboral en el mundo real con TECHO, donde fui responsable del desarrollo del frontend.
-  - Se me asignó trabajar en un proyecto en curso que ya tenía una base de código existente, utilizando tecnologías de vanguardia como React, Redux, Formik y Typescript. 
+  - Selected along with my team to participate in a real-world work experience with TECHO, where I was responsible for frontend development.
+  - Worked on an ongoing project with an existing codebase, using cutting-edge technologies such as React, Redux, Formik, and Typescript.
 
 ## Hollywood SP
-- *Full Stack Developer* | Mar'22 - Ago'23
+- *Full Stack Developer* | Mar'22 - Aug'23
 - ![logo512](../assets/Hollywood.png)
-- Tags: Trabajo
+- Tags: Work
 - Badges:
   - Javascript [yellow]
   - React [cyan]
   - Firebase [orange]
 - List Items:
-  - Fui seleccionado, junto con mi equipo, para participar en una experiencia laboral en el mundo real con TECHO, donde fui responsable del desarrollo del frontend.
-  - Se me asignó trabajar en un proyecto en curso que ya tenía una base de código existente, utilizando tecnologías de vanguardia como React, Redux, Formik y Typescript. 
+  - Developed a cross-platform web and mobile application using React and Firebase technologies.
+  - Focused on creating a user-friendly interface while ensuring scalability and performance.
 
 ## Aythen
-- *Teach Leader* | Ago'23 - Mar'24
+- *Tech Leader* | Aug'23 - Mar'24
 - ![logo512](../assets/Aythen.jpg)
-- Tags: Trabajo
+- Tags: Work
 - Badges:
   - Javascript [yellow]
   - Typescript [blue]
   - React [cyan]
   - React Native [cyan]
   - Vue [green]
-  - Next [white]
+  - Next.js [white]
 - List Items:
-  - En esta posición, asumí la responsabilidad de abordar las tareas más complejas y técnicas del proyecto, aquellas que requieren un profundo conocimiento de las librerias y frameworks utilizados.
-  - Estuve a cargo del desarrollo en el proyecto principal de la empresa: un editor de código avanzado que permite la creación de páginas web de manera eficiente. Usamos Next.js, React y Redux Toolkit, junto con CSS Modules para garantizar un diseño modular y escalable.
-  - Además, lideré una célula especializada en la traducción de código, donde encabezo la transformación de nuestro editor de código para que sea compatible con diferentes frameworks, incluyendo React Native con Expo y Vue con Vite.
+  - Held the position of Tech Leader in a cutting-edge project aimed at developing a no-code web builder platform, similar to Framer or Figma, for creating professional websites through a visual editor.
+  - Designed and implemented scalable frontend architecture with Clean Code and Clean Architecture principles, ensuring maintainability and performance across a growing codebase.
+  - Led the development of an advanced drag & drop system for dynamic layout building, handling complex edge cases for responsiveness and nested structures.
+  - Built the application using Next.js, React, Redux Toolkit, and CSS Modules to guarantee modularity, state efficiency, and an optimal developer experience.
+  - Spearheaded the framework translation initiative, extending the platform's compatibility to React Native (using Expo) and Vue (using Vite), allowing the same editor logic to generate applications for web and mobile platforms.
+  - Mentored team members on best practices, code reviews, and performance optimization strategies, helping raise the team's technical quality standards.
+  - Played a key role in refining user experience, improving load times, and ensuring pixel-perfect visual fidelity according to UX/UI design specifications.

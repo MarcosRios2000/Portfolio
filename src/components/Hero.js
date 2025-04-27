@@ -74,7 +74,7 @@ export default function Header({ color }) {
                 bg: `${color}.500`,
               }}
             >
-              Conectemos!
+              Let's connect!
             </Button>
             <Button
               onClick={scrollToContact}
@@ -82,7 +82,7 @@ export default function Header({ color }) {
               colorScheme={"blue"}
               size={"sm"}
             >
-              Contacto
+              Contact
             </Button>
             <Box>
               <Icon

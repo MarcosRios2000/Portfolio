@@ -36,12 +36,12 @@ export default function Contact({ color }) {
               <Text color={`${color}.400`} fontWeight={800}>
                 03
               </Text>
-              <Text fontWeight={800}>Contacto</Text>
+              <Text fontWeight={800}>Contact</Text>
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
-            <Heading fontSize={"3xl"}>Sigamos en contacto!</Heading>
+            <Heading fontSize={"3xl"}>Let's stay in touch!</Heading>
             <Text fontSize={"xl"} color={"gray.600"} px={4}>
               {profile.contact}
             </Text>
@@ -61,4 +61,3 @@ export default function Contact({ color }) {
     </>
   );
 }
-

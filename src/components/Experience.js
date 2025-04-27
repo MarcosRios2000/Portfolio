@@ -54,7 +54,7 @@ export default function Experience({ color }) {
               <Text color={`${color}.400`} fontWeight={800}>
                 02
               </Text>
-              <Text fontWeight={800}>Experiencia</Text>
+              <Text fontWeight={800}>Experience</Text>
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>

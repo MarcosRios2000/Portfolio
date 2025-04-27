@@ -1,26 +1,29 @@
-## Project A
-Description
+## UpTask
+Project Management Web App
 - ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 1
+- Tags: Project Management
 - Badges:
-  - Badge [blue]
+  - React [cyan]
+  - TypeScript [blue]
+  - Node.js [green]
+  - MongoDB [green]
+  - Tailwind CSS [purple]
 - Buttons:
-  - Link [https://example.com]
+  - Live Site [https://up-task-client.vercel.app]
+  - GitHub Frontend [https://github.com/MarcosRios2000/UpTask_client]
+  - GitHub Backend [https://github.com/MarcosRios2000/UpTask_api]
 
-## Project B
-Description
+## Product Admin
+Product Management Dashboard
 - ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 2
+- Tags: Admin Panel
 - Badges:
-  - Badge [blue]
+  - React [cyan]
+  - PostgreSQL [blue]
+  - Express.js [green]
+  - Node.js [green]
+  - Tailwind CSS [purple]
 - Buttons:
-  - Link [https://example.com]
-
-## Project C
-Description
-- ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 3
-- Badges:
-  - Badge [blue]
-- Buttons:
-  - Link [https://example.com]
+  - Live Site [https://product-admin-client.vercel.app]
+  - GitHub Frontend [https://github.com/MarcosRios2000/pern-productadmin-client]
+  - GitHub Backend [https://github.com/MarcosRios2000/pern-productadmin-api]
