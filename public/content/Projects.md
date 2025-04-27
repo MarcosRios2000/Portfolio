@@ -25,5 +25,5 @@ Product Management Dashboard
   - Tailwind CSS [purple]
 - Buttons:
   - Live Site [https://product-admin-client.vercel.app]
-  - GitHub Frontend [https://github.com/MarcosRios2000/pern-productadmin-client]
-  - GitHub Backend [https://github.com/MarcosRios2000/pern-productadmin-api]
+  - GitHub Frontend [https://github.com/MarcosRios2000/ProductAdminClient]
+  - GitHub Backend [https://github.com/MarcosRios2000/ProductAdminApi]
