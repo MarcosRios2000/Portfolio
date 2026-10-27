@@ -45,7 +45,7 @@ const parseExperience = (mdContent) => {
     }
   }
 
-  return experience;
+  return experience.reverse();
 };
 
 const ExperienceArray = () => {

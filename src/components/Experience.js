@@ -15,30 +15,13 @@ import {
   List,
   ListItem,
   ListIcon,
-  Button,
-  ButtonGroup,
-  Center,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Fade } from "react-reveal";
-import { useState, useEffect } from "react";
 import ExperienceArray from "./ExperienceArray";
-import TagsArray from "./TagsArray";
 
 export default function Experience({ color }) {
   const experience = ExperienceArray();
-  const options = TagsArray("ExperienceTags");
-  const [selected, setSelected] = useState("");
-
-  useEffect(() => {
-    if (options.length > 0) {
-      setSelected(options[0].value);
-    }
-  }, [options]);
-  
-  const handleSelected = (value) => {
-    setSelected(value);
-  };
 
   return (
     <>
@@ -58,21 +41,8 @@ export default function Experience({ color }) {
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
-          <Center px={4}>
-            <ButtonGroup variant="outline">
-              {options.map((option) => (
-                <Button
-                  colorScheme={selected === option.value ? `${color}` : "gray"}
-                  onClick={() => handleSelected(option.value)}
-                >
-                  {option.value}
-                </Button>
-              ))}
-            </ButtonGroup>
-          </Center>
           <Stack px={4} spacing={4}>
             {experience
-              .filter((exp) => exp.tags.includes(selected))
               .map((exp) => (
                 <Fade bottom>
                   <Card key={exp.company} size="sm">
