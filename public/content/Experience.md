@@ -64,3 +64,28 @@
   - Spearheaded the framework translation initiative, extending the platform's compatibility to React Native (using Expo) and Vue (using Vite), allowing the same editor logic to generate applications for web and mobile platforms.
   - Mentored team members on best practices, code reviews, and performance optimization strategies, helping raise the team's technical quality standards.
   - Played a key role in refining user experience, improving load times, and ensuring pixel-perfect visual fidelity according to UX/UI design specifications.
+
+## Taxi Laser
+- *Software Developer* | Apr'24 - Present
+- ![Taxi Laser](../assets/Taxilaser.png)
+- Tags: Work
+- Badges:
+  - Javascript [yellow]
+  - Typescript [blue]
+  - React [cyan]
+  - Next.js [white]
+  - Node.js [green]
+  - Express [green]
+  - PostgreSQL [blue]
+  - React Native [cyan]
+  - Expo [black]
+  - Electron [blue]
+  - Vite [purple]
+- List Items:
+  - Develop and maintain internal software solutions, building web, mobile, and desktop applications tailored to real-world operational needs.
+  - Develop a web-based messaging platform using React, TypeScript, and Vite, focusing on reusable components, maintainable code, and efficient communication workflows.
+  - Build backend services and REST APIs using Node.js, Express, and PostgreSQL to support application functionality and data management.
+  - Develop a push-to-talk mobile application using React Native, Expo, and TypeScript to facilitate communication between operational teams.
+  - Build and package Windows desktop applications using Electron, including an operator check-in/check-out tracking tool with automated updates and application distribution.
+  - Develop web applications using Next.js, implementing frontend functionality and reusable components aligned with operational requirements.
+  - Leverage AI-assisted development tools to accelerate implementation, explore solutions, and improve development efficiency while maintaining code quality and consistency.
