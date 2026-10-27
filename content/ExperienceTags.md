@@ -1,2 +1,2 @@
-Trabajo
-Formacion
+Work
+Education
